@@ -1,11 +1,11 @@
 openapi: 3.0.0
 servers:
-  - url: '/refget/1'
+  - url: '/refget/2'
 info:
   description: >-
     System for retrieving sequence and metadata concerning a reference sequence
     object by hash identifiers
-  version: '1.0.0'
+  version: '2.0.0'
   title: refget API
   contact:
     name: GA4GH Security Notifications
@@ -99,7 +99,7 @@ paths:
         '416':
           description: Invalid range request specified
         '501':
-          description: The specified request is not supported by the server          
+          description: The specified request is not supported by the server
   '/sequence/{id}/metadata':
     get:
       summary: Get reference metadata from a hash
@@ -187,7 +187,7 @@ components:
       - type: object
         description: Extended capabilities of refget service-info response object
         properties:
-          extension:
+          service-info:
             type: object
             required:
               - circular_supported
