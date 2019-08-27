@@ -187,7 +187,7 @@ components:
       - type: object
         description: Extended capabilities of refget service-info response object
         properties:
-          service-info:
+          refget:
             type: object
             required:
               - circular_supported
