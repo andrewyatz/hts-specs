@@ -183,7 +183,7 @@ components:
         - naming_authority
     RefgetServiceInfo:
       allOf:
-      - '$ref': https://raw.githubusercontent.com/ga4gh-discovery/ga4gh-service-info/develop/service-info.yaml#/components/schemas/ServiceInfo
+      - '$ref': https://raw.githubusercontent.com/ga4gh-discovery/ga4gh-service-info/develop/service-info.yaml#/components/schemas/Service
       - type: object
         description: Extended capabilities of refget service-info response object
         required:
