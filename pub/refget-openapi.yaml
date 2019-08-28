@@ -186,6 +186,8 @@ components:
       - '$ref': https://raw.githubusercontent.com/ga4gh-discovery/ga4gh-service-info/develop/service-info.yaml#/components/schemas/ServiceInfo
       - type: object
         description: Extended capabilities of refget service-info response object
+        required:
+          - refget
         properties:
           refget:
             type: object
