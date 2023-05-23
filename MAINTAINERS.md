@@ -40,7 +40,6 @@ Past htsget maintainers include Jerome Kelleher.
 * Andy Yates (@andrewyatz)
 * Rasko Leinonen (@raskoleinonen)
 * Timothe Cezard (@tcezard)
-* Rob Davies (@daviesrob)
 
 Past refget maintainers include Matt Laird.
 
