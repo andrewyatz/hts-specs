@@ -369,7 +369,7 @@ An array of strings listing the type identifiers supported. Values used should b
 <code>subsequence_limit</code><br/>
 int or null
 </td><td>
-An integer giving the maximum length of sequence which may be requested using <code>start</code> and/or <code>end</code> query parameters or <code>Range</code> header. May be <code>null</code> if the server has imposed no limit.
+An integer giving the maximum length of sequence which may be requested using <code>start</code> and/or <code>end</code> query parameters or <code>Range</code> header. <code>null</code> values or values lower than 1 or mean the server has no imposed limit.
 </td></tr>
 </table>
 </td></tr>
