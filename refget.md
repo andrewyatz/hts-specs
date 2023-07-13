@@ -237,7 +237,7 @@ Content-type: application/vnd.ga4gh.refget.v2.0.0+json
 
 #### Response
 
-The server shall return a list of all identifiers the server knows for the given identifier along with associated metadata. The server MAY return the query identifier in the list of identifiers.
+The server shall return a list of all identifiers for algorithms the server knows and the given identifier along with associated metadata. Identifiers provided by naming authorities should be provided in the `aliases` property. The server MAY return the query identifier in the list of identifiers.
 
 A JSON encoded response shall have the following fields:
 
